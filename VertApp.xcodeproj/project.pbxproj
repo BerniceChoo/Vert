@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C60BF6AE29856A4500009ACC /* VertAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60BF6AD29856A4500009ACC /* VertAppApp.swift */; };
+		C60BF6B029856A4500009ACC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60BF6AF29856A4500009ACC /* ContentView.swift */; };
+		C60BF6B229856A4700009ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60BF6B129856A4700009ACC /* Assets.xcassets */; };
+		C60BF6B529856A4700009ACC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60BF6B429856A4700009ACC /* Preview Assets.xcassets */; };
+		C60BF6BF29856A4700009ACC /* VertAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60BF6BE29856A4700009ACC /* VertAppTests.swift */; };
+		C60BF6C929856A4700009ACC /* VertAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60BF6C829856A4700009ACC /* VertAppUITests.swift */; };
+		C60BF6CB29856A4700009ACC /* VertAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60BF6CA29856A4700009ACC /* VertAppUITestsLaunchTests.swift */; };
+		C60BF6D829856C7300009ACC /* indicatorHotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60BF6D729856C7300009ACC /* indicatorHotView.swift */; };
+		C60BF6DA29856CA300009ACC /* indicatorNormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60BF6D929856CA300009ACC /* indicatorNormView.swift */; };
+		C60BF6DC29856CBE00009ACC /* indicatorColdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60BF6DB29856CBE00009ACC /* indicatorColdView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C60BF6BB29856A4700009ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C60BF6A229856A4500009ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C60BF6A929856A4500009ACC;
+			remoteInfo = VertApp;
+		};
+		C60BF6C529856A4700009ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C60BF6A229856A4500009ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C60BF6A929856A4500009ACC;
+			remoteInfo = VertApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C60BF6AA29856A4500009ACC /* VertApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VertApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60BF6AD29856A4500009ACC /* VertAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertAppApp.swift; sourceTree = "<group>"; };
+		C60BF6AF29856A4500009ACC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C60BF6B129856A4700009ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C60BF6B429856A4700009ACC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C60BF6BA29856A4700009ACC /* VertAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VertAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60BF6BE29856A4700009ACC /* VertAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertAppTests.swift; sourceTree = "<group>"; };
+		C60BF6C429856A4700009ACC /* VertAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VertAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60BF6C829856A4700009ACC /* VertAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertAppUITests.swift; sourceTree = "<group>"; };
+		C60BF6CA29856A4700009ACC /* VertAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C60BF6D729856C7300009ACC /* indicatorHotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indicatorHotView.swift; sourceTree = "<group>"; };
+		C60BF6D929856CA300009ACC /* indicatorNormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indicatorNormView.swift; sourceTree = "<group>"; };
+		C60BF6DB29856CBE00009ACC /* indicatorColdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indicatorColdView.swift; sourceTree = "<group>"; };
+		C60BF7142986F69C00009ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C60BF6A729856A4500009ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60BF6B729856A4700009ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60BF6C129856A4700009ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C60BF6A129856A4500009ACC = {
+			isa = PBXGroup;
+			children = (
+				C60BF6AC29856A4500009ACC /* VertApp */,
+				C60BF6BD29856A4700009ACC /* VertAppTests */,
+				C60BF6C729856A4700009ACC /* VertAppUITests */,
+				C60BF6AB29856A4500009ACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C60BF6AB29856A4500009ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C60BF6AA29856A4500009ACC /* VertApp.app */,
+				C60BF6BA29856A4700009ACC /* VertAppTests.xctest */,
+				C60BF6C429856A4700009ACC /* VertAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C60BF6AC29856A4500009ACC /* VertApp */ = {
+			isa = PBXGroup;
+			children = (
+				C60BF7142986F69C00009ACC /* Info.plist */,
+				C60BF6AD29856A4500009ACC /* VertAppApp.swift */,
+				C60BF6AF29856A4500009ACC /* ContentView.swift */,
+				C60BF6D729856C7300009ACC /* indicatorHotView.swift */,
+				C60BF6DB29856CBE00009ACC /* indicatorColdView.swift */,
+				C60BF6D929856CA300009ACC /* indicatorNormView.swift */,
+				C60BF6B129856A4700009ACC /* Assets.xcassets */,
+				C60BF6B329856A4700009ACC /* Preview Content */,
+			);
+			path = VertApp;
+			sourceTree = "<group>";
+		};
+		C60BF6B329856A4700009ACC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C60BF6B429856A4700009ACC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C60BF6BD29856A4700009ACC /* VertAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C60BF6BE29856A4700009ACC /* VertAppTests.swift */,
+			);
+			path = VertAppTests;
+			sourceTree = "<group>";
+		};
+		C60BF6C729856A4700009ACC /* VertAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C60BF6C829856A4700009ACC /* VertAppUITests.swift */,
+				C60BF6CA29856A4700009ACC /* VertAppUITestsLaunchTests.swift */,
+			);
+			path = VertAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C60BF6A929856A4500009ACC /* VertApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60BF6CE29856A4700009ACC /* Build configuration list for PBXNativeTarget "VertApp" */;
+			buildPhases = (
+				C60BF6A629856A4500009ACC /* Sources */,
+				C60BF6A729856A4500009ACC /* Frameworks */,
+				C60BF6A829856A4500009ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VertApp;
+			productName = VertApp;
+			productReference = C60BF6AA29856A4500009ACC /* VertApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C60BF6B929856A4700009ACC /* VertAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60BF6D129856A4700009ACC /* Build configuration list for PBXNativeTarget "VertAppTests" */;
+			buildPhases = (
+				C60BF6B629856A4700009ACC /* Sources */,
+				C60BF6B729856A4700009ACC /* Frameworks */,
+				C60BF6B829856A4700009ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C60BF6BC29856A4700009ACC /* PBXTargetDependency */,
+			);
+			name = VertAppTests;
+			productName = VertAppTests;
+			productReference = C60BF6BA29856A4700009ACC /* VertAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C60BF6C329856A4700009ACC /* VertAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60BF6D429856A4700009ACC /* Build configuration list for PBXNativeTarget "VertAppUITests" */;
+			buildPhases = (
+				C60BF6C029856A4700009ACC /* Sources */,
+				C60BF6C129856A4700009ACC /* Frameworks */,
+				C60BF6C229856A4700009ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C60BF6C629856A4700009ACC /* PBXTargetDependency */,
+			);
+			name = VertAppUITests;
+			productName = VertAppUITests;
+			productReference = C60BF6C429856A4700009ACC /* VertAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C60BF6A229856A4500009ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C60BF6A929856A4500009ACC = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					C60BF6B929856A4700009ACC = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C60BF6A929856A4500009ACC;
+					};
+					C60BF6C329856A4700009ACC = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C60BF6A929856A4500009ACC;
+					};
+				};
+			};
+			buildConfigurationList = C60BF6A529856A4500009ACC /* Build configuration list for PBXProject "VertApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C60BF6A129856A4500009ACC;
+			productRefGroup = C60BF6AB29856A4500009ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C60BF6A929856A4500009ACC /* VertApp */,
+				C60BF6B929856A4700009ACC /* VertAppTests */,
+				C60BF6C329856A4700009ACC /* VertAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C60BF6A829856A4500009ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60BF6B529856A4700009ACC /* Preview Assets.xcassets in Resources */,
+				C60BF6B229856A4700009ACC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60BF6B829856A4700009ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60BF6C229856A4700009ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C60BF6A629856A4500009ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60BF6B029856A4500009ACC /* ContentView.swift in Sources */,
+				C60BF6DC29856CBE00009ACC /* indicatorColdView.swift in Sources */,
+				C60BF6D829856C7300009ACC /* indicatorHotView.swift in Sources */,
+				C60BF6DA29856CA300009ACC /* indicatorNormView.swift in Sources */,
+				C60BF6AE29856A4500009ACC /* VertAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60BF6B629856A4700009ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60BF6BF29856A4700009ACC /* VertAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60BF6C029856A4700009ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60BF6C929856A4700009ACC /* VertAppUITests.swift in Sources */,
+				C60BF6CB29856A4700009ACC /* VertAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C60BF6BC29856A4700009ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C60BF6A929856A4500009ACC /* VertApp */;
+			targetProxy = C60BF6BB29856A4700009ACC /* PBXContainerItemProxy */;
+		};
+		C60BF6C629856A4700009ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C60BF6A929856A4500009ACC /* VertApp */;
+			targetProxy = C60BF6C529856A4700009ACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C60BF6CC29856A4700009ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C60BF6CD29856A4700009ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C60BF6CF29856A4700009ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VertApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VertApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.VertApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C60BF6D029856A4700009ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VertApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VertApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.VertApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C60BF6D229856A4700009ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.VertAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VertApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VertApp";
+			};
+			name = Debug;
+		};
+		C60BF6D329856A4700009ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.VertAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VertApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VertApp";
+			};
+			name = Release;
+		};
+		C60BF6D529856A4700009ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.VertAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VertApp;
+			};
+			name = Debug;
+		};
+		C60BF6D629856A4700009ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.VertAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VertApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C60BF6A529856A4500009ACC /* Build configuration list for PBXProject "VertApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60BF6CC29856A4700009ACC /* Debug */,
+				C60BF6CD29856A4700009ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60BF6CE29856A4700009ACC /* Build configuration list for PBXNativeTarget "VertApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60BF6CF29856A4700009ACC /* Debug */,
+				C60BF6D029856A4700009ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60BF6D129856A4700009ACC /* Build configuration list for PBXNativeTarget "VertAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60BF6D229856A4700009ACC /* Debug */,
+				C60BF6D329856A4700009ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60BF6D429856A4700009ACC /* Build configuration list for PBXNativeTarget "VertAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60BF6D529856A4700009ACC /* Debug */,
+				C60BF6D629856A4700009ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C60BF6A229856A4500009ACC /* Project object */;
+}
